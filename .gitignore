@@ -1,5 +1,9 @@
 pdi_env/
 __pycache__/
 example/
-data/preprocessed
-data/raw_videos
+
+data/raw_videos/*
+!data/raw_videos/.gitkeep
+
+data/preprocessed/*
+!data/preprocessed/.gitkeep
